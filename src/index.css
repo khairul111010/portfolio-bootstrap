@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-color {
+  background-color: #061728;
+}
+.author-name {
+  color: #fcbc1d;
+}
+.home-color {
+  background: linear-gradient(
+    to top,
+    #010e1b,
+    #051322,
+    #07182a,
+    #071c32,
+    #09203a
+  );
+}
+
+.mt-10 {
+  margin-top: 150px !important;
+}
+.mt-8 {
+  margin-top: 80px !important;
+}
+.card-custom {
+  border-radius: 1rem !important;
+  text-align: center !important;
+  background-color: rgba(110, 110, 110, 0.1) !important;
+  padding: 2rem !important;
+  margin-top: 10px !important;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+  font-size: small;
+}
+
+.card-custom-interest::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #dee2e6;
+  margin: 4px 10px;
+}
+
+.card-custom:hover {
+  scale: 0.9;
 }

@@ -8,19 +8,42 @@ import dai from "../assets/img/dai.jpg";
 import ibm from "../assets/img/ibm.jpg";
 import stanford from "../assets/img/stanford.jpg";
 import ucsd from "../assets/img/ucsd.jpg";
-import { BsFillArrowRightSquareFill } from "react-icons/bs";
+import {
+  BsFillArrowRightSquareFill,
+  BsLinkedin,
+  BsGithub,
+} from "react-icons/bs";
 import { GrCloudComputer, GrCloudSoftware } from "react-icons/gr";
 import { GiVendingMachine } from "react-icons/gi";
 import { FcComboChart, FcAddImage } from "react-icons/fc";
 import { TbDeviceComputerCamera } from "react-icons/tb";
 import { GoNote } from "react-icons/go";
 import { FaLanguage } from "react-icons/fa";
+import { ImStackoverflow } from "react-icons/im";
+import { SiStopstalk } from "react-icons/si";
 const AboutPage = () => {
   return (
     <Container>
       <Row className="justify-content-md-center mt-8">
         <Col lg={4}>
           <img src={tr} alt="" className="rounded-circle border border-5" />
+          <Row
+            className="justify-content-md-center mt-3 ms-3"
+            style={{ width: "18rem" }}
+          >
+            <Col lg={3}>
+              <BsLinkedin fontSize="1.5em" />
+            </Col>
+            <Col lg={3}>
+              <BsGithub fontSize="1.5em" />
+            </Col>
+            <Col lg={3}>
+              <ImStackoverflow fontSize="1.5em" />
+            </Col>
+            <Col lg={3}>
+              <SiStopstalk fontSize="1.5em" />
+            </Col>
+          </Row>
         </Col>
         <Col lg={8}>
           <h1>Moshiul Azam</h1>

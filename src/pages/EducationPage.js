@@ -15,7 +15,7 @@ const EducationPage = () => {
       <div className="d-flex justify-content-center mt-4">
         <div>
           <img
-            className="rounded"
+            className="rounded-circle"
             src={csail_square}
             alt=""
             srcset=""
@@ -52,18 +52,18 @@ const EducationPage = () => {
             </Card.Text>
           </Card.Body>
           <Card.Footer className="text-muted d-flex justify-content-end">
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary">Visit</Button>
           </Card.Footer>
         </Card>
       </div>
       <div className="text-center mt-4">
-        <h2>Awards</h2>
+        <h2>Certifications</h2>
       </div>
       <div className="d-flex justify-content-around mt-4">
         <Card className="custom-card">
           <div className="custom-card-img-container">
             <Card.Img variant="top" src={ibm} width={200} />
-            <div className="overlay">hello</div>
+            <div className="overlay">Certificate</div>
           </div>
           <Card.Body>
             <Card.Title>Machine Learning</Card.Title>
@@ -73,7 +73,7 @@ const EducationPage = () => {
         <Card className="custom-card">
           <div className="custom-card-img-container">
             <Card.Img variant="top" src={ibm} width={200} />
-            <div className="overlay">hello</div>
+            <div className="overlay">Certificate</div>
           </div>
           <Card.Body>
             <Card.Title>Machine Learning</Card.Title>
@@ -83,7 +83,7 @@ const EducationPage = () => {
         <Card className="custom-card">
           <div className="custom-card-img-container">
             <Card.Img variant="top" src={ibm} width={200} />
-            <div className="overlay">hello</div>
+            <div className="overlay">Certificate</div>
           </div>
           <Card.Body>
             <Card.Title>Machine Learning</Card.Title>

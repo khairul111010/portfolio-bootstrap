@@ -23,6 +23,15 @@ const NavComponent = () => {
               <LinkContainer to="/education">
                 <Nav.Link>Education</Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/timeline">
+                <Nav.Link>Timeline</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/resume">
+                <Nav.Link>Resume</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/contact">
+                <Nav.Link>Contact Me</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>

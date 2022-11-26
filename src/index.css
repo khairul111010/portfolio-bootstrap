@@ -93,3 +93,14 @@
 .overlay:hover {
   opacity: 1;
 }
+
+.vertical-timeline::before {
+  color: #010e1b !important;
+}
+
+#fb > span > svg {
+  fill: rgb(14, 142, 241) !important;
+}
+#linkedin > span > svg {
+  fill: rgb(10, 102, 194) !important;
+}

@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import tr from "../assets/img/tr.png";
 const HomePage = () => {
   return (
-    <div className="vh-100 home-color">
+    <div className="vh-90 home-color">
       <Container>
         <Row className="justify-content-center">
           <Col className="mt-10" xs="auto">

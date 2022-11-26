@@ -2,7 +2,12 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-
+nav {
+  height: 10vh;
+}
+.vh-90 {
+  height: 90vh;
+}
 .navbar-color {
   background-color: #061728;
 }

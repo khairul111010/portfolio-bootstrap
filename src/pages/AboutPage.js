@@ -28,20 +28,28 @@ const AboutPage = () => {
         <Col lg={4}>
           <img src={tr} alt="" className="rounded-circle border border-5" />
           <Row
-            className="justify-content-md-center mt-3 ms-3"
+            className="justify-content-md-center mt-3 ms-3 mb-3"
             style={{ width: "18rem" }}
           >
-            <Col lg={3}>
-              <BsLinkedin fontSize="1.5em" />
+            <Col xs={3}>
+              <div className="svg-border-rounded">
+                <BsLinkedin fontSize="1.5em" />
+              </div>
             </Col>
-            <Col lg={3}>
-              <BsGithub fontSize="1.5em" />
+            <Col xs={3}>
+              <div className="svg-border-rounded">
+                <BsGithub fontSize="1.5em" />
+              </div>
             </Col>
-            <Col lg={3}>
-              <ImStackoverflow fontSize="1.5em" />
+            <Col xs={3}>
+              <div className="svg-border-rounded">
+                <ImStackoverflow fontSize="1.5em" />
+              </div>
             </Col>
-            <Col lg={3}>
-              <SiStopstalk fontSize="1.5em" />
+            <Col xs={3}>
+              <div className="svg-border-rounded">
+                <SiStopstalk fontSize="1.5em" />
+              </div>
             </Col>
           </Row>
         </Col>
